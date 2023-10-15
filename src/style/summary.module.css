@@ -1,0 +1,21 @@
+.outerDiv{
+    height: 20vh;
+    width: 80%;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+.outerDiv h2{
+    margin-bottom: 0px;
+}
+.innerDiv{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    /* align-items: center; */
+}
+.innerDiv span{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
